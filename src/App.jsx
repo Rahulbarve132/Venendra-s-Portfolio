@@ -14,11 +14,11 @@ function App() {
      <HeroHighlightDemo/>
      <div className="md:px-10 px-10">
      <GlowingEffectDemo/>
-     <ThreeDCardDemo/>
      <Experience/>
+     <ThreeDCardDemo/>
      <AnimatedTestimonialsDemo/>
      <Approach/>
-     <Footer/>
+     <Footer/>  
 
      </div>
 

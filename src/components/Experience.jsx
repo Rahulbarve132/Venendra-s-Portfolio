@@ -6,6 +6,13 @@ import exp3 from "../assets/exp3.svg";
 import exp4 from "../assets/exp4.svg";
 
 const workExperience = [
+  {
+    id: 4,
+    title: "Lead Frontend Engineer",
+    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    className: "md:col-span-2",
+    thumbnail: exp4,
+  },
     {
       id: 1,
       title: "Frontend Engineer",
@@ -13,27 +20,22 @@ const workExperience = [
       className: "md:col-span-2",
       thumbnail: exp1,
     },
-    {
-      id: 2,
-      title: "Founder - VBCorp",
-      desc: "As an Entrepreneur and Founder, I provided consulting and outsourcing services across various industries, including real estate, education, finance, and training.",
-      className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: exp2,
-    },
+    
     {
       id: 3,
       title: "Freelance Web Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+      desc: "Led the dev of a Web app for a client, from initial concept to deployment.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail:exp3 ,
     },
     {
-      id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
-      className: "md:col-span-2",
-      thumbnail: exp4,
+      id: 2,
+      title: "Founder - VBCorp",
+      desc: "As an Entrepreneur and Founder, I provided consulting and outsourcing services.",
+      className: "md:col-span-2", // change to md:col-span-2
+      thumbnail: exp2,
     },
+    
   ];
 
 const Experience = () => {

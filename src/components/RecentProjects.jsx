@@ -2,32 +2,36 @@
 
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "./ui/3d-card";
+import eventX from "../assets/EventX.png"
+import Ecoavenstra from "../assets/Ecoavenstra.png"
+import PortFolio from "../assets/PortFolio.png"
+import JobPortal from "../assets/JobPortal.png"
 
 // Dummy data for projects
 const projects = [
   {
     id: 1,
-    title: "Project 1",
-    description: "Hover over this card to unleash the power of CSS perspective",
-    imageUrl: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    title: "EventX",
+    description: "EventX is an event management platform that helps businesses and organizations streamline event planning, registration, and virtual or in-person attendee engagement. It offers features like ticketing, live streaming, networking tools, and analytics to enhance event experiences.",
+    imageUrl: eventX
   },
   {
     id: 2,
-    title: "Project 2",
-    description: "Explore the dynamics of interactive UI design",
-    imageUrl: "https://images.unsplash.com/photo-1522252234503-e356532cafd5?ixlib=rb-1.2.1&auto=format&fit=crop&w=2560&q=80"
+    title: "Ecoavenstra",
+    description: "Ecoavenstra is a sustainability-focused company that provides eco-friendly solutions for businesses and individuals. It offers services like renewable energy consulting, waste management, and green technology integration to promote environmental responsibility. ",
+    imageUrl: Ecoavenstra
   },
   {
     id: 3,
-    title: "Project 3",
-    description: "A deep dive into modern web technologies",
-    imageUrl: "https://images.unsplash.com/photo-1503428593586-e225b39bddfe?ixlib=rb-1.2.1&auto=format&fit=crop&w=2560&q=80"
+    title: "Portfolio Website",
+    description: "A portfolio website is a personal or professional website that showcases an individual's work, skills, and achievements. It is commonly used by designers, developers, photographers, and creatives to highlight their projects and attract potential clients or employers.",
+    imageUrl: PortFolio
   },
   {
     id: 4,
-    title: "Project 4",
-    description: "Innovative solutions to everyday problems",
-    imageUrl: "https://images.unsplash.com/photo-1581091012184-7e0cdfbb6797?ixlib=rb-1.2.1&auto=format&fit=crop&w=2560&q=80"
+    title: "Job Portal",
+    description: "A job portal is an online platform that connects job seekers with employers by listing job openings across various industries. It allows candidates to upload resumes, apply for jobs, and receive alerts, while employers can post vacancies and screen potential hires.",
+    imageUrl: JobPortal
   },
   // Add more projects as needed
 ];
@@ -51,7 +55,7 @@ export function ThreeDCardDemo() {
                   src={project.imageUrl}
                   height="1000"
                   width="1000"
-                  className="h-60 w-full object-cover rounded-xl group-hover:card:shadow-xl"
+                  className=" w-full object-cover rounded-xl group-hover:card:shadow-xl"
                   alt="thumbnail" />
               </CardItem>
               <CardItem
