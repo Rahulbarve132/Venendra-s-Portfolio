@@ -18,7 +18,7 @@ const projects = [
   {
     id: 2,
     title: "Ecoavenstra",
-    description: "Ecoavenstra is a sustainability-focused company that provides eco-friendly solutions for businesses and individuals. It offers services like renewable energy consulting, waste management, and green technology integration to promote environmental responsibility. ",
+    description: "Ecoavenstra is a sustainability-focused company that provides eco-friendly solutions and content management system (CMS) services for businesses and individuals. It aims to streamline digital experiences while promoting sustainability. With a mission to create a greener future.",
     imageUrl: Ecoavenstra
   },
   {
