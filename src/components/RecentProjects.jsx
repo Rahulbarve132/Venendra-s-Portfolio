@@ -4,7 +4,7 @@ import React from "react";
 import { CardBody, CardContainer, CardItem } from "./ui/3d-card";
 import eventX from "../assets/EventX.png"
 import Ecoavenstra from "../assets/Ecoavenstra.png"
-import PortFolio from "../assets/PortFolio.png"
+import PortFolio from "../assets/Portfolio.png"
 import JobPortal from "../assets/JobPortal.png"
 
 // Dummy data for projects
