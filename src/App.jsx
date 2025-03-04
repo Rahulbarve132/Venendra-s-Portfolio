@@ -6,6 +6,7 @@ import { HeroHighlightDemo } from "./components/HeroHighlight"
 import Approach from "./components/MyApproach"
 
 import {ThreeDCardDemo} from "./components/RecentProjects"
+import { Services } from "./components/Services"
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
      <GlowingEffectDemoSecond/>
      <Experience/>
      <ThreeDCardDemo/>
+     <Services/>
      <AnimatedTestimonialsDemo/>
      <Approach/>
      <Footer/>  
