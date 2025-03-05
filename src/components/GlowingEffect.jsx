@@ -82,6 +82,7 @@ import { GlowingEffect } from "./ui/glowing-effect";
 export function GlowingEffectDemoSecond() {
   return (
     (<ul
+    id="About"
       className="grid grid-cols-1 grid-rows-none gap-4 md:grid-cols-12 md:grid-rows-3 lg:gap-4 xl:max-h-[34rem] xl:grid-rows-2">
       <GridItem
         area="md:[grid-area:1/1/2/7] xl:[grid-area:1/1/2/5]"

@@ -40,7 +40,7 @@ const workExperience = [
 
 const Experience = () => {
   return (
-    <div className="md:py-20 py-10 w-full">
+    <div id="Experience" className=" md:py-20 py-10 w-full">
       <h1 className="text-4xl md:text-6xl flex text-white gap-3 justify-center font-bold">
         My <span className="text-purple">work experience</span>
       </h1>

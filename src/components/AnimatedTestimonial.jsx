@@ -42,7 +42,7 @@ export function AnimatedTestimonialsDemo() {
     },
   ];
   return(
-    <div className="flex flex-col justify-center item-center">
+    <div id="Testimonials" className="flex flex-col justify-center item-center">
     <div className="text-white font-bold flex justify-center item-center pt-20 md:text-6xl text-3xl ">Words from Happy Clients</div>
     <AnimatedTestimonials testimonials={testimonials} />
     </div>

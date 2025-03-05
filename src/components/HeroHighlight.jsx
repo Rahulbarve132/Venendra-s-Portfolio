@@ -4,7 +4,8 @@ import { HeroHighlight, Highlight } from "./ui/hero-highlight";
 
 export function HeroHighlightDemo() {
   return (
-    (<HeroHighlight className="">
+    <div id="Home" className="w-full -m-5 h-full">
+    (<HeroHighlight>
       <motion.h1
         initial={{
           opacity: 0,
@@ -18,12 +19,13 @@ export function HeroHighlightDemo() {
           duration: 0.5,
           ease: [0.4, 0.0, 0.2, 1],
         }}
-        className="text-2xl px-4 md:text-4xl lg:text-5xl font-bold text-neutral-700 dark:text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto ">
+         className="text-2xl px-4 md:text-4xl lg:text-5xl font-bold text-neutral-700 dark:text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto ">
         Welcome to Venendra&apos;s Portfolio. Crafting digital experiences with
         <Highlight className="text-black dark:text-white">
         passion and precision.
         </Highlight>
       </motion.h1>
     </HeroHighlight>)
+    </div>
   );
 }

@@ -38,7 +38,7 @@ const projects = [
 
 export function ThreeDCardDemo() {
   return (
-    <div className="flex flex-col md:pt-20 pt-0 justify-center items-center">
+    <div id="Projects" className=" flex flex-col md:pt-20 pt-0 justify-center items-center">
       <div className="text-white md:text-6xl text-3xl font-bold pb-4 md:pb-14">My Projects</div>
       <div className="grid grid-cols-1 sm:grid-cols-2  w-full max-w-7xl mx-auto gap-4">
         {projects.map((project) => (

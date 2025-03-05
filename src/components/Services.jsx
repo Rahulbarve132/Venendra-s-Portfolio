@@ -62,7 +62,7 @@ const servicesData = [
 export function Services() {
   return (
     <>
-    <div className="text-white md:py-20 py-10 text-3xl md:text-6xl font-bold flex justify-center">My Services</div>
+    <div id="Services" className="text-white md:py-20 py-10 text-3xl md:text-6xl font-bold flex justify-center">My Services</div>
     <div className="grid grid-cols-1 sm:grid-cols-3   w-full max-w-7xl md:mx-auto gap-4">
     {servicesData.map((services)=>(     
     <CardSpotlight key={services.id} className="h-96 w-96">
